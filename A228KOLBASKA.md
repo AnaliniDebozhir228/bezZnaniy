@@ -1,8 +1,8 @@
 ### ⚔️ `Battles` (Сражения)
 | Поле | Тип | Описание |
 |------|-----|----------|
-| `id` | `INTEGER` 🏷️ | **PRIMARY KEY** |
-| `winner_id` | `INTEGER` 🥇 | **FOREIGN KEY** → `Players.id` |
-| `loser_id` | `INTEGER` 😢 | **FOREIGN KEY** → `Players.id` |
-| `battle_date` | `DATETIME` 📅 | **DEFAULT CURRENT_TIMESTAMP** |
-| `duration_seconds` | `INTEGER` ⏱️ | Длительность боя |
+| `id` | `INTEGER` 🏷️ | **1489** |
+| `winner_id` | `INTEGER` 🥇 | **1487** → `Players.id` |
+| `loser_id` | `INTEGER` 😢 | **1489** → `Players.id` |
+| `battle_date` | `DATETIME` 📅 | **07.25.26** |
+| `duration_seconds` | `INTEGER` ⏱️ | 1:34 |
